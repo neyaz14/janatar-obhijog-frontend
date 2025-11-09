@@ -1,0 +1,182 @@
+{
+  "header": {
+    "Headerwelcome": "Welcome!"
+  },
+  "welcome": "Welcome, {{name}}!",
+  "description": "Janatar Obhijog — report civic issues easily.",
+  "items_one": "You have {{count}} item",
+  "items_other": "You have {{count}} items",
+  "richText": "Click <strong>here</strong> to continue.",
+  "language": {
+    "lang": "English"
+  },
+  "nav": {
+    "login": "Login",
+    "getStarted": "Get Started",
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "services": "Services"
+  },
+  "home": {
+    "title": "Welcome to Janatar Obhijog",
+    "subtitle": "Digital Complaint Box",
+    "description": "Report civic issues easily and make your voice heard in the community",
+    "reportIssue": "Report an Issue",
+    "learnMore": "Learn More",
+    "banner": {
+      "officialPlatform": "Official Government Platform",
+      "stats": {
+        "complaintsResolved": "Complaints Resolved",
+        "governmentDepartments": "Government Departments",
+        "satisfactionRate": "Satisfaction Rate",
+        "issuesResolved": "Issues Resolved"
+      },
+      "demo": {
+        "department": "Public Works Department",
+        "resolved": "Resolved",
+        "complaintId": "COMPLAINT ID: #JO-2024-001",
+        "cardTitle": "Road Repair Completed",
+        "location": "Main Street, Dhaka - Ward 15",
+        "cardDescription": "Potholes on Main Street have been filled and the road is now safe for travel. Quality inspection completed.",
+        "timeline": {
+          "reported": "Jan 15, 2024",
+          "issueReported": "Issue Reported",
+          "review": "Jan 18, 2024",
+          "underReview": "Under Review",
+          "resolved": "Jan 25, 2024",
+          "resolvedStatus": "Resolved"
+        },
+        "resolutionProgress": "Resolution Progress",
+        "completed": "Resolved in 10 days"
+      },
+      "recentlyResolved": "Recently Resolved:",
+      "ticker": {
+        "waterLogging": "Water logging in Mirpur - Resolved",
+        "streetLight": "Street light repair in Gulshan - Completed",
+        "garbageCollection": "Garbage collection in Uttara - Improved",
+        "trafficSignal": "Traffic signal in Dhanmondi - Fixed"
+      }
+    },
+    "features": {
+      "title": "Features",
+      "subtitle": "Advanced technology meets citizen empowerment to create a seamless complaint management experience",
+      "easyReporting": "Easy Reporting",
+      "easyReportingDesc": "Submit complaints quickly and efficiently",
+      "tracking": "Real-time Tracking",
+      "trackingDesc": "Track the status of your complaints",
+      "transparency": "Transparency",
+      "transparencyDesc": "See all public complaints and their resolution status",
+      "officialResponse": "Official Response",
+      "officialResponseDesc": "Government-guaranteed action",
+      "smartAIRouting": "Smart AI Routing",
+      "smartAIRoutingDesc": "Our AI automatically routes your complaint to the right department for faster resolution.",
+      "locationBasedReporting": "Location-Based Reporting",
+      "locationBasedReportingDesc": "GPS-enabled reporting ensures accurate location data for precise issue identification.",
+      "realTimeNotifications": "Real-Time Notifications",
+      "realTimeNotificationsDesc": "Get instant updates on your complaint status via SMS, email, and push notifications.",
+      "progressTracking": "Progress Tracking",
+      "progressTrackingDesc": "Visual timeline showing every step of your complaint resolution process.",
+      "multiLanguageSupport": "Multi-Language Support",
+      "multiLanguageSupportDesc": "Available in Bengali and English to serve all citizens effectively.",
+      "rewardSystem": "Reward System",
+      "rewardSystemDesc": "Earn gems for active participation and contributing to community improvement.",
+      "learnMore": "Learn More",
+      "stats": {
+        "fasterResolution": "Faster Resolution",
+        "successRate": "Success Rate",
+        "activeUsers": "Active Users",
+        "partnerDepartments": "Partner Departments"
+      }
+    },
+    "roles": {
+      "title": "For Everyone",
+      "citizen": "Citizens",
+      "citizenDesc": "Report issues in your community",
+      "official": "Officials",
+      "officialDesc": "Manage and resolve complaints",
+      "admin": "Administrators",
+      "adminDesc": "Oversee the entire system"
+    },
+    "cta": {
+      "title": "Ready to Make a Difference?",
+      "subtitle": "Join thousands of citizens working together to improve our communities",
+      "button": "Start Reporting Issues"
+    }
+  },
+  "auth": {
+    "signin": {
+      "title": "Sign In",
+      "subtitle": "Welcome back! Please sign in to your account",
+      "email": "Email",
+      "password": "Password",
+      "rememberMe": "Remember me",
+      "forgotPassword": "Forgot password?",
+      "signInButton": "Sign In",
+      "noAccount": "Don't have an account?",
+      "signUpLink": "Sign up here"
+    },
+    "signup": {
+      "title": "Create Account",
+      "subtitle": "Join us to start reporting and tracking issues",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "agreeTerms": "I agree to the Terms and Conditions",
+      "signUpButton": "Create Account",
+      "hasAccount": "Already have an account?",
+      "signInLink": "Sign in here"
+    }
+  },
+  "footer": {
+    "description": "Making communities better through transparent complaint management",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "contactSupport": "Contact & Support",
+    "trackComplaint": "Track Your Complaint",
+    "citizenDashboard": "Citizen Dashboard",
+    "authorityLogin": "Authority Login",
+    "howItWorks": "How It Works",
+    "faq": "FAQ",
+    "roadIssues": "Road Issues",
+    "electricityProblems": "Electricity Problems",
+    "wasteManagement": "Waste Management",
+    "waterSupply": "Water Supply",
+    "governmentServices": "Government Services",
+    "anonymousReporting": "Anonymous Reporting",
+    "contactUs": "Contact Us",
+    "email": "support@digitalcomplaintbox.gov.bd",
+    "phone": "+880-2-9999999",
+    "location": "Dhaka, Bangladesh",
+    "stats": {
+      "totalComplaints": "Total Complaints",
+      "resolved": "Resolved",
+      "inProgress": "In Progress",
+      "departments": "Departments"
+    },
+    "copyright": "© 2024 Digital Complaint Box. All rights reserved. | Government of Bangladesh Initiative",
+    "contact": "Contact",
+    "legal": "Legal",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "accessibility": "Accessibility",
+    "transparencyReport": "Transparency Report",
+    "allRightsReserved": "All rights reserved"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "success": "Success!",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "view": "View",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous"
+  }
+}

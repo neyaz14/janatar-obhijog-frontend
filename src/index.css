@@ -1,1 +1,309 @@
 @import "tailwindcss";
+/* Import Bangla fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalpurush&display=swap');
+
+/* Dark mode configuration */
+@media (prefers-color-scheme: dark) {
+    html.dark {
+        color-scheme: dark;
+    }
+}
+
+/* Custom CSS variables for theme consistency */
+:root {
+    /* Primary brand colors */
+    --color-primary: #dc2626;
+    --color-primary-hover: #b91c1c;
+    --color-primary-light: #fecaca;
+
+    /* Secondary brand colors */
+    --color-secondary: #1c733a;
+    --color-secondary-hover: #15803d;
+    --color-secondary-light: #bbf7d0;
+
+    /* Background colors */
+    --bg-primary: #ffffff;
+    --bg-secondary: #f8fafc;
+    --bg-tertiary: #f1f5f9;
+
+    /* Text colors */
+    --text-primary: #1e293b;
+    --text-secondary: #64748b;
+    --text-tertiary: #94a3b8;
+    --text-inverse: #ffffff;
+
+    /* Border colors */
+    --border-primary: #e2e8f0;
+    --border-secondary: #cbd5e1;
+
+    /* Status colors */
+    --color-success: #059669;
+    --color-warning: #d97706;
+    --color-error: #dc2626;
+    --color-info: #0284c7;
+
+    /* Shadow colors */
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+html.dark {
+    /* Primary brand colors (slightly adjusted for dark mode) */
+    --color-primary: #ef4444;
+    --color-primary-hover: #dc2626;
+    --color-primary-light: #7f1d1d;
+
+    /* Secondary brand colors */
+    --color-secondary: #22c55e;
+    --color-secondary-hover: #16a34a;
+    --color-secondary-light: #14532d;
+
+    /* Background colors */
+    --bg-primary: #0f172a;
+    --bg-secondary: #1e293b;
+    --bg-tertiary: #334155;
+
+    /* Text colors */
+    --text-primary: #f8fafc;
+    --text-secondary: #cbd5e1;
+    --text-tertiary: #94a3b8;
+    --text-inverse: #1e293b;
+
+    /* Border colors */
+    --border-primary: #334155;
+    --border-secondary: #475569;
+
+    /* Status colors */
+    --color-success: #10b981;
+    --color-warning: #f59e0b;
+    --color-error: #ef4444;
+    --color-info: #06b6d4;
+
+    /* Shadow colors */
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.3);
+    --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.4), 0 2px 4px -2px rgb(0 0 0 / 0.4);
+    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.4), 0 4px 6px -4px rgb(0 0 0 / 0.4);
+}
+
+/* Smooth transitions for theme changes */
+*,
+*::before,
+*::after {
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+}
+
+/* Custom scrollbar for better consistency */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #d1d5db;
+    border-radius: 4px;
+}
+
+html.dark ::-webkit-scrollbar-thumb {
+    background: #4b5563;
+}
+
+/* Font optimization for Bengali text */
+html[lang="bn"] {
+    font-family: 'Noto Sans Bengali', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html[lang="en"] {
+    font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Ticker animation for scrolling text */
+@keyframes tickerAnimation {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* Utility classes for consistent theming */
+.theme-bg-primary {
+    background-color: var(--bg-primary);
+}
+
+.theme-bg-secondary {
+    background-color: var(--bg-secondary);
+}
+
+.theme-bg-tertiary {
+    background-color: var(--bg-tertiary);
+}
+
+.theme-text-primary {
+    color: var(--text-primary);
+}
+
+.theme-text-secondary {
+    color: var(--text-secondary);
+}
+
+.theme-text-tertiary {
+    color: var(--text-tertiary);
+}
+
+.theme-text-inverse {
+    color: var(--text-inverse);
+}
+
+.theme-border-primary {
+    border-color: var(--border-primary);
+}
+
+.theme-border-secondary {
+    border-color: var(--border-secondary);
+}
+
+.theme-btn-primary {
+    background-color: var(--color-primary);
+    color: var(--text-inverse);
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.theme-btn-primary:hover {
+    background-color: var(--color-primary-hover);
+    transform: translateY(-1px);
+}
+
+.theme-btn-secondary {
+    background-color: transparent;
+    color: var(--color-primary);
+    border: 2px solid var(--color-primary);
+    transition: all 0.3s ease;
+}
+
+.theme-btn-secondary:hover {
+    background-color: var(--color-primary);
+    color: var(--text-inverse);
+}
+
+.theme-card {
+    background-color: var(--bg-primary);
+    border: 1px solid var(--border-primary);
+    box-shadow: var(--shadow-lg);
+}
+
+.theme-shadow-sm {
+    box-shadow: var(--shadow-sm);
+}
+
+.theme-shadow-md {
+    box-shadow: var(--shadow-md);
+}
+
+.theme-shadow-lg {
+    box-shadow: var(--shadow-lg);
+}
+
+/* Enhanced hover effects and focus states */
+.theme-btn-primary:hover {
+    background-color: var(--color-primary-hover);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+}
+
+.theme-btn-secondary:hover {
+    background-color: var(--color-primary);
+    color: var(--text-inverse);
+    transform: translateY(-1px);
+}
+
+.theme-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+}
+
+/* Focus states for accessibility */
+.theme-btn-primary:focus,
+.theme-btn-secondary:focus {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+}
+
+/* Responsive text sizing */
+@media (max-width: 768px) {
+    .theme-text-responsive {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 640px) {
+    .theme-text-responsive {
+        font-size: 0.8rem;
+    }
+}
+
+/* Bangla Font Support */
+.font-bangla {
+    font-family: 'Noto Sans Bengali', 'Kalpurush', 'SolaimanLipi', 'Bangla MN', 'Bangla Sangam MN', sans-serif;
+    font-feature-settings: "liga" on, "calt" on;
+    text-rendering: optimizeLegibility;
+}
+
+/* Language-specific styling */
+.lang-bn {
+    font-family: 'Noto Sans Bengali', 'Kalpurush', 'SolaimanLipi', 'Bangla MN', 'Bangla Sangam MN', sans-serif;
+    line-height: 1.7;
+    letter-spacing: 0.02em;
+}
+
+.lang-en {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    line-height: 1.6;
+}
+
+/* Language toggle button styles */
+.language-toggle {
+    position: fixed;
+    top: 100px;
+    right: 20px;
+    z-index: 1000;
+    background: var(--color-primary);
+    color: var(--text-inverse);
+    border: none;
+    border-radius: 50px;
+    padding: 12px 20px;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: var(--shadow-lg);
+    transition: all 0.3s ease;
+}
+
+.language-toggle:hover {
+    background: var(--color-primary-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(220, 38, 38, 0.3);
+}
+
+.language-toggle:active {
+    transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+    .language-toggle {
+        position: fixed;
+        top: 80px;
+        right: 15px;
+        padding: 10px 16px;
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,42 @@
+[
+    {
+      "division": "Barishal",
+      "divisionbn": "বরিশাল",
+      "coordinates": "22.3811, 90.3372"
+    },
+    {
+      "division": "Chattogram",
+      "divisionbn": "চট্টগ্রাম",
+      "coordinates": "23.1793, 91.9882"
+    },
+    {
+      "division": "Dhaka",
+      "divisionbn": "ঢাকা",
+      "coordinates": "23.9536, 90.1495"
+    },
+    {
+      "division": "Khulna",
+      "divisionbn": "খুলনা",
+      "coordinates": "22.8088, 89.2467"
+    },
+    {
+      "division": "Mymensingh",
+      "divisionbn": "ময়মনসিংহ",
+      "coordinates": "24.7136, 90.4502"
+    },
+    {
+      "division": "Rajshahi",
+      "divisionbn": "রাজশাহী",
+      "coordinates": "24.7106, 88.9414"
+    },
+    {
+      "division": "Rangpur",
+      "divisionbn": "রংপুর",
+      "coordinates": "25.8483, 88.9414"
+    },
+    {
+      "division": "Sylhet",
+      "divisionbn": "সিলেট",
+      "coordinates": "24.7050, 91.6761"
+    }
+  ]

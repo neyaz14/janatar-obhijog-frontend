@@ -1,0 +1,182 @@
+{
+  "header": {
+    "Headerwelcome": "স্বাগতম!"
+  },
+  "welcome": "স্বাগতম, {{name}}!",
+  "description": "জনতার অভিযোগ — সহজে নাগরিক সমস্যা রিপোর্ট করুন।",
+  "items_one": "আপনার আছে {{count}} টি আইটেম",
+  "items_other": "আপনার আছে {{count}} টি আইটেম",
+  "richText": "চলুন <strong>এখানে</strong> ক্লিক করে চালিয়ে যান।",
+  "language": {
+    "lang": "বাংলা"
+  },
+  "nav": {
+    "login": "লগইন",
+    "getStarted": "শুরু করুন",
+    "home": "হোম",
+    "about": "সম্পর্কে",
+    "contact": "যোগাযোগ",
+    "services": "সেবা"
+  },
+  "home": {
+    "title": "জনতার অভিযোগে স্বাগতম",
+    "subtitle": "ডিজিটাল অভিযোগ বক্স",
+    "description": "সহজেই নাগরিক সমস্যা রিপোর্ট করুন এবং সমাজে আপনার কণ্ঠস্বর শোনান",
+    "reportIssue": "সমস্যা রিপোর্ট করুন",
+    "learnMore": "আরো জানুন",
+    "banner": {
+      "officialPlatform": "সরকারি প্ল্যাটফর্ম",
+      "stats": {
+        "complaintsResolved": "অভিযোগ সমাধান",
+        "governmentDepartments": "সরকারি বিভাগ",
+        "satisfactionRate": "সন্তুষ্টির হার",
+        "issuesResolved": "সমস্যা সমাধান"
+      },
+      "demo": {
+        "department": "গণপূর্ত বিভাগ",
+        "resolved": "সমাধানকৃত",
+        "complaintId": "অভিযোগ আইডি: #JO-2024-001",
+        "cardTitle": "রাস্তা মেরামত সম্পন্ন",
+        "location": "মেইন স্ট্রিট, ঢাকা - ওয়ার্ড ১৫",
+        "cardDescription": "মেইন স্ট্রিটের গর্তগুলি ভরাট করা হয়েছে এবং রাস্তাটি এখন চলাচলের জন্য নিরাপদ। মান নিয়ন্ত্রণ পরিদর্শন সম্পন্ন।",
+        "timeline": {
+          "reported": "১৫ জানুয়ারি, ২০২৪",
+          "issueReported": "সমস্যা রিপোর্ট",
+          "review": "১৮ জানুয়ারি, ২০২৪",
+          "underReview": "পর্যালোচনাধীন",
+          "resolved": "২৫ জানুয়ারি, ২০২৪",
+          "resolvedStatus": "সমাধানকৃত"
+        },
+        "resolutionProgress": "সমাধানের অগ্রগতি",
+        "completed": "১০ দিনে সমাধান"
+      },
+      "recentlyResolved": "সম্প্রতি সমাধান:",
+      "ticker": {
+        "waterLogging": "মিরপুরে জলাবদ্ধতা - সমাধান",
+        "streetLight": "গুলশানে রাস্তার বাতি মেরামত - সম্পন্ন",
+        "garbageCollection": "উত্তরায় আবর্জনা সংগ্রহ - উন্নত",
+        "trafficSignal": "ধানমন্ডিতে ট্রাফিক সিগন্যাল - ঠিক"
+      }
+    },
+    "features": {
+      "title": "বৈশিষ্ট্য",
+      "subtitle": "অত্যাধুনিক প্রযুক্তি এবং নাগরিক ক্ষমতায়ন একসাথে মিলে একটি নির্বিঘ্ন অভিযোগ ব্যবস্থাপনার অভিজ্ঞতা তৈরি করে",
+      "easyReporting": "সহজ রিপোর্টিং",
+      "easyReportingDesc": "দ্রুত এবং কার্যকরভাবে অভিযোগ জমা দিন",
+      "tracking": "রিয়েল-টাইম ট্র্যাকিং",
+      "trackingDesc": "আপনার অভিযোগের অবস্থা ট্র্যাক করুন",
+      "transparency": "স্বচ্ছতা",
+      "transparencyDesc": "সকল পাবলিক অভিযোগ এবং তাদের সমাধানের অবস্থা দেখুন",
+      "officialResponse": "সরকারি সাড়া",
+      "officialResponseDesc": "সরকার নিশ্চিত পদক্ষেপ",
+      "smartAIRouting": "স্মার্ট এআই রাউটিং",
+      "smartAIRoutingDesc": "আমাদের এআই স্বয়ংক্রিয়ভাবে আপনার অভিযোগ সঠিক বিভাগে পাঠায় দ্রুত সমাধানের জন্য।",
+      "locationBasedReporting": "অবস্থান-ভিত্তিক রিপোর্টিং",
+      "locationBasedReportingDesc": "জিপিএস-সক্ষম রিপোর্টিং নিখুঁত সমস্যা চিহ্নিতকরণের জন্য সঠিক অবস্থানের ডেটা নিশ্চিত করে।",
+      "realTimeNotifications": "রিয়েল-টাইম বিজ্ঞপ্তি",
+      "realTimeNotificationsDesc": "এসএমএস, ইমেইল এবং পুশ বিজ্ঞপ্তির মাধ্যমে আপনার অভিযোগের অবস্থায় তাৎক্ষণিক আপডেট পান।",
+      "progressTracking": "অগ্রগতি ট্র্যাকিং",
+      "progressTrackingDesc": "আপনার অভিযোগ সমাধান প্রক্রিয়ার প্রতিটি ধাপ দেখায় ভিজ্যুয়াল টাইমলাইন।",
+      "multiLanguageSupport": "বহু-ভাষা সহায়তা",
+      "multiLanguageSupportDesc": "সকল নাগরিকদের কার্যকরভাবে সেবা দিতে বাংলা এবং ইংরেজিতে উপলব্ধ।",
+      "rewardSystem": "পুরস্কার সিস্টেম",
+      "rewardSystemDesc": "সক্রিয় অংশগ্রহণ এবং সম্প্রদায়ের উন্নতিতে অবদানের জন্য রত্ন অর্জন করুন।",
+      "learnMore": "আরো জানুন",
+      "stats": {
+        "fasterResolution": "দ্রুত সমাধান",
+        "successRate": "সাফল্যের হার",
+        "activeUsers": "সক্রিয় ব্যবহারকারী",
+        "partnerDepartments": "অংশীদার বিভাগ"
+      }
+    },
+    "roles": {
+      "title": "সবার জন্য",
+      "citizen": "নাগরিকদের জন্য",
+      "citizenDesc": "আপনার সম্প্রদায়ের সমস্যা রিপোর্ট করুন",
+      "official": "কর্মকর্তাদের জন্য",
+      "officialDesc": "অভিযোগ পরিচালনা এবং সমাধান করুন",
+      "admin": "প্রশাসকদের জন্য",
+      "adminDesc": "সম্পূর্ণ সিস্টেম তত্ত্বাবধান করুন"
+    },
+    "cta": {
+      "title": "পরিবর্তন আনতে প্রস্তুত?",
+      "subtitle": "হাজারো নাগরিকের সাথে যোগ দিন যারা একসাথে আমাদের সম্প্রদায়ের উন্নতির জন্য কাজ করছেন",
+      "button": "সমস্যা রিপোর্ট শুরু করুন"
+    }
+  },
+  "auth": {
+    "signin": {
+      "title": "সাইন ইন",
+      "subtitle": "স্বাগতম! আপনার অ্যাকাউন্টে সাইন ইন করুন",
+      "email": "ইমেইল",
+      "password": "পাসওয়ার্ড",
+      "rememberMe": "আমাকে মনে রাখুন",
+      "forgotPassword": "পাসওয়ার্ড ভুলে গেছেন?",
+      "signInButton": "সাইন ইন",
+      "noAccount": "অ্যাকাউন্ট নেই?",
+      "signUpLink": "এখানে সাইন আপ করুন"
+    },
+    "signup": {
+      "title": "অ্যাকাউন্ট তৈরি করুন",
+      "subtitle": "সমস্যা রিপোর্ট এবং ট্র্যাক করতে আমাদের সাথে যোগ দিন",
+      "firstName": "প্রথম নাম",
+      "lastName": "শেষ নাম",
+      "email": "ইমেইল",
+      "password": "পাসওয়ার্ড",
+      "confirmPassword": "পাসওয়ার্ড নিশ্চিত করুন",
+      "agreeTerms": "আমি নিয়ম ও শর্তাবলীতে সম্মত",
+      "signUpButton": "অ্যাকাউন্ট তৈরি করুন",
+      "hasAccount": "ইতিমধ্যে অ্যাকাউন্ট আছে?",
+      "signInLink": "এখানে সাইন ইন করুন"
+    }
+  },
+  "footer": {
+    "description": "স্বচ্ছ অভিযোগ ব্যবস্থাপনার মাধ্যমে সম্প্রদায়কে আরো ভালো করা",
+    "quickLinks": "দ্রুত লিংক",
+    "services": "সেবাসমূহ",
+    "contactSupport": "যোগাযোগ ও সহায়তা",
+    "trackComplaint": "আপনার অভিযোগ ট্র্যাক করুন",
+    "citizenDashboard": "নাগরিক ড্যাশবোর্ড",
+    "authorityLogin": "কর্তৃপক্ষের লগইন",
+    "howItWorks": "এটি কীভাবে কাজ করে",
+    "faq": "সাধারণ প্রশ্ন",
+    "roadIssues": "রাস্তার সমস্যা",
+    "electricityProblems": "বিদ্যুতের সমস্যা",
+    "wasteManagement": "বর্জ্য ব্যবস্থাপনা",
+    "waterSupply": "পানি সরবরাহ",
+    "governmentServices": "সরকারি সেবা",
+    "anonymousReporting": "গোপনীয় রিপোর্টিং",
+    "contactUs": "যোগাযোগ করুন",
+    "email": "support@digitalcomplaintbox.gov.bd",
+    "phone": "+880-2-9999999",
+    "location": "ঢাকা, বাংলাদেশ",
+    "stats": {
+      "totalComplaints": "মোট অভিযোগ",
+      "resolved": "সমাধানকৃত",
+      "inProgress": "চলমান",
+      "departments": "বিভাগ"
+    },
+    "copyright": "© ২০২৪ ডিজিটাল অভিযোগ বক্স। সকল অধিকার সংরক্ষিত। | বাংলাদেশ সরকারের উদ্যোগ",
+    "contact": "যোগাযোগ",
+    "legal": "আইনি",
+    "privacyPolicy": "গোপনীয়তা নীতি",
+    "termsOfService": "সেবার শর্তাবলী",
+    "accessibility": "প্রবেশযোগ্যতা",
+    "transparencyReport": "স্বচ্ছতা প্রতিবেদন",
+    "allRightsReserved": "সকল অধিকার সংরক্ষিত"
+  },
+  "common": {
+    "loading": "লোড হচ্ছে...",
+    "error": "কিছু একটা ভুল হয়েছে",
+    "success": "সফল!",
+    "submit": "জমা দিন",
+    "cancel": "বাতিল",
+    "save": "সংরক্ষণ",
+    "edit": "সম্পাদনা",
+    "delete": "মুছুন",
+    "view": "দেখুন",
+    "back": "পিছনে",
+    "next": "পরবর্তী",
+    "previous": "পূর্ববর্তী"
+  }
+}
